@@ -1,5 +1,6 @@
 # po-api-automation-task
-This is a repository that contains ui automation against the Amazon website. The project contains script test and pom test for the task. 
+This is a repository that contains ui automation against the Amazon website. The project contains script test and pom test for the task. I've also added a github action so any push or pull request will kick of a CI test run build. 
+
 ### What's next
 - Introduction testId to finding and dealing with elements easier
 - Once added devise a testId strategy.
