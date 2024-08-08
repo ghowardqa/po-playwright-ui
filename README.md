@@ -5,7 +5,8 @@ This is a repository that contains ui automation against the Amazon website. The
 - Introduction testId to finding and dealing with elements easier
 - Once added devise a testId strategy.
 - Build out coverage against automation priority
-- Introduction mocking to allow to test different UI states and help with network latency and test flakiness. 
+- Utilise environment variables to handle senstive data like email and passwords so local it would point to .env(included in .gitignore) and when running on the CI it would be pass down via the github secrets.
+- Introduction mocking to allow to test different UI states and help with network latency and test flakiness.
 
 ## Setup guide
 if you have got Playwright already installed then you can skip this section
